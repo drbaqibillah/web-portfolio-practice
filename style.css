@@ -1,0 +1,82 @@
+body {
+    padding: 0%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.color-highlight {
+    color: rgb(8, 95, 235);
+}
+
+h1{
+    font-size: 55px;
+}
+
+.half-size {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 150px;
+}
+
+.half-size img {
+    width: 100%;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 340px;
+}
+.top {
+    background-image: url("images/113.jpg");
+    background-position: right;
+
+    
+
+}
+
+.middle {
+    background-image: url("images/113.jpg");
+    background-position: center;
+
+}
+
+.last {
+    background-image: url("images/113.jpg");
+    background-position: left;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, cyan, deepSkyBlue);
+    border-radius: 5px;
+    color:gray;
+    font-size: 20px;
+    padding: 2px;
+
+}
+
+a:hover {
+    background-color: rgb(3, 13, 15);
+    cursor: pointer;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px;
+    height: 160px;
+    border-radius: 8px;
+    padding-top: 8px;
+    background-color: rgb(173, 234, 236);
+    
+}
+
+#one {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#two {
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, tomato, red);
+    border-image-slice: 1;
+}
